@@ -30,8 +30,35 @@
 <br/><br/>
 
 ![image](https://user-images.githubusercontent.com/62520045/171559069-3d0d113c-a7ae-440c-920a-b4ade6b38a18.png)
+<br/><br/>
+| Case | Number of Face Images | Resolution |
+|:----------:|:----------:|:----------:|
+| Easy Case | 596 | 48x48 ~ |
+| Medium Case | 5,102 | 29x29 ~ 48x48 |
+| Hard Case | 5,432 | ~ 29x29 |
 
 <br/><br/>
+
+## **📊 Experiment**
+
+ ### 1. Face Detection Result
+
+| Case | Recall | Accuracy |
+|:----------:|:----------:|:----------:|
+| Easy Case | 87.67% | 84.41% |
+| Medium Case | 85.04% | 80.32% |
+| Hard Case | 74.79% | 59.99% |
+| Total | 74.79% | 71.1% |
+
+ ### 2. Gender Classification Result
+
+| Case | Before ESRGAN | After ESRGAN |
+|:----------:|:----------:|:----------:|
+| Easy Case | 72.15% | - |
+| Medium Case | 68.86% | 69.78% |
+| Hard Case | 65.24% | 65.24% |
+| Total | 67.27% | 68.20% |
+
 <br/><br/>
 
 ## **👭 Contributions**
